@@ -3,11 +3,11 @@ Welcome to this project! Our main goal is to set up a new API to make it easier 
 
 React is a popular JavaScript library for building user interfaces. When used in conjunction with WordPress, it can provide several benefits. One benefit is that React allows for building highly interactive and dynamic user interfaces, which can enhance the user experience on a WordPress website. Additionally, React's ability to efficiently update and render components can improve the performance of a WordPress website, particularly when dealing with large amounts of data. React also allows for easy integration with other web technologies, such as APIs, which can enable additional functionality on a WordPress website. 
 
-With this example plugin installed, developers can see how to create a settings page based on React components, benefiting from the widely adopted and well-supported technology, making it easier to find developers with experience using it, in conjuction with the [feature api](https://github.com/schmitzoide/wordpress-modern-settings-api).
+With this example plugin installed, developers can see how to create a settings page based on React components, benefiting from the widely adopted and well-supported technology, making it easier to find developers with experience using it, in conjuction with the [feature plugin](https://github.com/schmitzoide/wordpress-modern-settings-api).
 
 # Getting Started #
 
-Clone the [feature api](https://github.com/schmitzoide/wordpress-modern-settings-api) first and follow the instructions on the repo to get started. The, clone this plugin, and you you haven't so, do a `npm link` inside the feature plugin folder first, and then run `npm link wordpress-modern-settings-api` on this plugin. At the end, run a `npm install` and then a `npm run build` command. You're ready to activate the plugin and see how it renders the example settins screen.
+Clone the [feature plugin](https://github.com/schmitzoide/wordpress-modern-settings-api) first and follow the instructions on the repo to get started. The, clone this plugin, and you you haven't so, do a `npm link` inside the feature plugin folder first, and then run `npm link wordpress-modern-settings-api` on this plugin. At the end, run a `npm install` and then a `npm run build` command. You're ready to activate the plugin and see how it renders the example settins screen.
 
 # Get Involved #
 We'd like for you to get involved and help us complete a list of suggested next steps, as this is a fairly young and ambitious project.
