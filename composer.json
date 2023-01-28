@@ -1,0 +1,32 @@
+{
+    "name": "schmitzoide/wordpress-modern-settings-api-example-plugin",
+    "version": "0.0.1",
+    "description": "Enable usable of react components on the WordPress admin side.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0+",
+    "archive": {
+        "exclude": [
+            "!/build",
+            "!/assets",
+            "!/languages"
+        ]
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*",
+        "wp-coding-standards/wpcs": "^2.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": false,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
+        ],
+        "post-update-cmd": [
+            "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
+        ]
+    }
+}

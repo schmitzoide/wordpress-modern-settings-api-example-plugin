@@ -1,0 +1,8 @@
+{
+    "name": "schmitzoide/wordpress-modern-settings-api-example-plugin",
+    "version": "0.3.0",
+    "title": "Settings Example 01",
+    "icon": "text",
+    "description": "This is the settings page of our example plugin.",
+    "editorScript": "index.js"
+}
